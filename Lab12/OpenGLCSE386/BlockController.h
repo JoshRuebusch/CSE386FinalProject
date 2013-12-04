@@ -20,5 +20,8 @@ protected:
 private:
 	vec3 position;
 	vec3 velocity;
-};
+	VisualObject* root;
+	bool currPosArr [7][7][10];
+	bool worldColArr [7][7][10];
 
+};

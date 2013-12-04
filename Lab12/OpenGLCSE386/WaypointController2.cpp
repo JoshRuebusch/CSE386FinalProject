@@ -18,6 +18,7 @@ void WaypointController2::update(float elapsedTimeSeconds)
 
 	position = position + velocity * elapsedTimeSeconds;
 	target->modelMatrix = translate(mat4(1.0f), position);
+	cout << this->target->getWorldPosition();
 
 } // end update
 
