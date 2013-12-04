@@ -195,6 +195,9 @@
     <ClInclude Include="SoundSource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BlockController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glutBase.cpp">
@@ -312,6 +315,9 @@
       <Filter>Source Files\Controllers</Filter>
     </ClCompile>
     <ClCompile Include="WaypointController2.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockController.cpp">
       <Filter>Source Files\Controllers</Filter>
     </ClCompile>
   </ItemGroup>

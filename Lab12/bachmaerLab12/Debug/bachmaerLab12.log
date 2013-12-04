@@ -1,9 +1,21 @@
-﻿Build started 11/25/2013 3:08:46 PM.
-     1>Project "C:\Users\bachmaer\Desktop\Lab12\bachmaerLab12\bachmaerLab12.vcxproj" on node 2 (clean target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\bachmaerLab12.lastbuildstate".
-     1>Done Building Project "C:\Users\bachmaer\Desktop\Lab12\bachmaerLab12\bachmaerLab12.vcxproj" (clean target(s)).
+﻿Build started 12/4/2013 5:28:39 PM.
+     1>Project "C:\Users\willi339.IT.000\Documents\GitHub\CSE386FinalProject\Lab12\bachmaerLab12\bachmaerLab12.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\bachmaerLab12.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bachmaerLab12.cpp
+         bachmaerLab12.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\willi339.IT.000\Documents\GitHub\CSE386FinalProject\Lab12\Debug\bachmaerLab12.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib glew32.lib freeglut.lib OpenGLCSE386.lib OpenAL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\bachmaerLab12.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\willi339.IT.000\Documents\GitHub\CSE386FinalProject\Lab12\Debug\bachmaerLab12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\willi339.IT.000\Documents\GitHub\CSE386FinalProject\Lab12\Debug\bachmaerLab12.lib" /MACHINE:X86 Debug\bachmaerLab12.obj
+     1>bachmaerLab12.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         bachmaerLab12.vcxproj -> C:\Users\willi339.IT.000\Documents\GitHub\CSE386FinalProject\Lab12\Debug\bachmaerLab12.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\willi339.IT.000\Documents\GitHub\CSE386FinalProject\Lab12\Debug\bachmaerLab12.exe;#1" /manifest Debug\bachmaerLab12.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\bachmaerLab12.unsuccessfulbuild".
+         Touching "Debug\bachmaerLab12.lastbuildstate".
+     1>Done Building Project "C:\Users\willi339.IT.000\Documents\GitHub\CSE386FinalProject\Lab12\bachmaerLab12\bachmaerLab12.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:04.48

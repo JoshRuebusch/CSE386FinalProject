@@ -98,6 +98,7 @@ copy "*.h" "$(SolutionDir)"\Include\</Command>
     <ClInclude Include="alc.h" />
     <ClInclude Include="aldlist.h" />
     <ClInclude Include="bitmap_class.h" />
+    <ClInclude Include="BlockController.h" />
     <ClInclude Include="callbacks.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="ColoredFigureOne.h" />
@@ -145,6 +146,7 @@ copy "*.h" "$(SolutionDir)"\Include\</Command>
   <ItemGroup>
     <ClCompile Include="aldlist.cpp" />
     <ClCompile Include="bitmap_class.cpp" />
+    <ClCompile Include="BlockController.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="ColoredFigureOne.cpp" />
     <ClCompile Include="ColoredPyramid.cpp" />
